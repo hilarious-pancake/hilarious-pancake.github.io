@@ -6,7 +6,6 @@
 <meta name="description" content="A layout example that shows off a responsive product landing page.">
 
     <title>Sifter</title>
-
     
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
@@ -26,8 +25,7 @@
 <!--<![endif]-->
 
 
-
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
   
@@ -42,17 +40,6 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-<!-- <nav class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Sifter</a>
-
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
-        </ul>
-    </div>
-</nav> -->
 
 <header class="splash-container">
     <div class="splash">
@@ -65,27 +52,27 @@
 </header>
 
 <div class="content-wrapper">
-    <div class="content" id="about">
+    <div class="content content-about" id="about">
         <h2 class="content-head is-center">Sifter helps you figure out how to sort your trash</h2>
 
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
               <h3 class="content-subhead">
-                <i class="fa fa-rocket"></i>
+                <i class="fa fa-spoon"></i>
                 Compost
               </h3>
               <img src="img/compost.jpg" class="photo">
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
               <h3 class="content-subhead">
-                <i class="fa fa-mobile"></i>
+                <i class="fa fa-recycle"></i>
                 Recycling
               </h3>
               <img src="img/recycling.jpg" class="photo">
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
               <h3 class="content-subhead">
-                <i class="fa fa-th-large"></i>
+                <i class="fa fa-trash"></i>
                 Landfill
               </h3>
               <img src="img/landfill-square.jpg" class="photo">
@@ -94,11 +81,8 @@
     </div>
 
     <div class="ribbon content">
-<!--         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-          <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
-        </div> -->
 
-        <h2 class="content-head is-center">How to use Sifter</h2>
+        <h2 class="content-head is-center">Sifter is a snap to use</h2>
 
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
@@ -125,51 +109,31 @@
         </div>
     </div>
 
-    <div class="content">
-        <h2 class="content-head is-center">Sifter for Developers</h2>
+    <div class="content is-center">
+        <h2 class="content-head">Calling all developers: help us save the world!</h2>
+        <img src="img/trio.jpg" class="trio" />
 
         <div class="pure-g">
-            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                <form class="pure-form pure-form-stacked">
-                    <fieldset>
-
-                        <label for="name">Your Name</label>
-                        <input id="name" type="text" placeholder="Your Name">
-
-
-                        <label for="email">Your Email</label>
-                        <input id="email" type="email" placeholder="Your Email">
-
-                        <label for="password">Your Password</label>
-                        <input id="password" type="password" placeholder="Your Password">
-
-                        <button type="submit" class="pure-button">Sign Up</button>
-                    </fieldset>
-                </form>
-            </div>
-
-            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                <h4>Contact Us</h4>
+            <div class="l-box-lrg pure-u-1">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                  Compostee, Recyclee, and Trashee want everyone to place the right items in the right bins. Sifter is an open-source project, and we need great developers like you to help us create a smarter, more efficient trash classifier. Check out our code and docs below!
                 </p>
-
-                <h4>More Information</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <a class="pure-button" href="https://github.com/hilarious-pancake">
+                  <i class="fa fa-github"></i>
+                  Code on GitHub
+                </a>
+                <a class="pure-button" href="docs">
+                  <i class="fa fa-file-text"></i>
+                  Documentation
+                </a>
             </div>
         </div>
 
     </div>
 
-    <div class="footer l-box is-center">
-      Made with &hearts; by <a href="http://www.github.com/hilarious-pancake">Hilarious Pancake</a> in San Francisco, CA.
-    </div>
+    <footer class="footer l-box is-center">
+      Made with &hearts; by <a href="http://www.github.com/hilarious-pancake">Hilarious Pancake</a> in San Francisco, CA. Landfill photo: <a href="https://www.flickr.com/photos/cogdog/9090732482/">Flickr</a>.
+    </footer>
 
 </div>
 </body>

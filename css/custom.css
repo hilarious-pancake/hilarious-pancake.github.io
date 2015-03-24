@@ -4,7 +4,7 @@ body, p {
 }
 
 a {
-  color: #eee;
+  color: inherit;
   text-decoration: none;
   border-bottom: 1px dotted #eee;
 }
@@ -43,7 +43,7 @@ h3 {
 }
 
 .splash {
-  top: 150px;
+  top: 30%;
   width: auto;
   height: auto;
 }
@@ -104,6 +104,7 @@ a.pure-button-primary {
   color: white;
   padding: 0.5em 2em;
   border-radius: 5px;
+  box-shadow: 1px 1px 2px #006D1E;
 }
 
 .photo {
@@ -115,6 +116,10 @@ a.pure-button-primary {
 .l-box {
   position: relative;
   text-align: center;
+}
+
+.content-about {
+  box-shadow: 1px 1px 10px #34495e;
 }
 
 .content-subhead {
@@ -132,12 +137,23 @@ a.pure-button-primary {
 .ribbon {
   background: #a0c3e9;
   color: #34495e;
-  box-shadow: 1px 1px 5px #34495e;
 }
 
 .count {
-  font-weight: 900;
+  font-weight: 700;
   padding: 10px 14px;
   background: #fff;
   border-radius: 100%;
+  box-shadow: 1px 1px 5px #34495e;
+}
+
+.footer {
+  font-size: 0.8em;
+  background: #a0c3e9;
+  color: #34495e;
+}
+
+.trio {
+  display: block;
+  margin: 0 auto;
 }
