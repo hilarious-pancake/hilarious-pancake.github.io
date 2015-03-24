@@ -157,3 +157,34 @@ a.pure-button-primary {
   display: block;
   margin: 0 auto;
 }
+
+.headshot {
+  width: 210px;
+  height: 210px;
+  margin: 0 auto 1.5em;
+  border-radius: 100%;
+  box-shadow: 1px 1px 5px #34495e;
+}
+
+.stephanie {
+  background: url('../img/stephanie-higa.jpg') no-repeat center center;
+}
+
+.jason {
+  background: url('../img/jason-ly.jpg') no-repeat top center;
+}
+
+.conor {
+  background: url('../img/conor-flannigan.jpg') no-repeat top center;
+}
+
+hr {
+  border-width: 1px 0 0 0;
+  border-color: #33cd5f;
+  border-style: dotted;
+  width: 80%;
+}
+
+.small-margin {
+  margin: 0.5em;
+}
